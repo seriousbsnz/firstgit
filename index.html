@@ -1,37 +1,19 @@
-
 <!DOCTYPE html>
-<html>
-    
-    <head>
-        <!-- metadata about the site and pulling in extra files-->
-            <title>Most awesome website ever
-                </title>
-            <link rel="stylesheet" href="main.css" />
-    </head>
-    
-    <body>
-        <!-- content,  js files, -->
-       <!-- <marquee> -->
-            <h3>Welcome to the best page in the world
-                </h3>
-       <!-- </marquee> -->
-                    <p id="tom">
-                    Some more fun text
-                  </p>
-                  
-                  <div id="navbar">
-                      <ul>
-                          <li class="navitem">
-                              <a href="google.com">Google</a>
-                          </li>
-                          <li class="navitem">
-                              <a href="google.com">Google 2</a>
-                          </li>
-                          <li class="navitem">
-                              <a href="google.com">Google 3</a>
-                          </li>
-                      </ul>
-                  </div>
-    </body>
-    
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mother's Day Houses</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/three@0.158.0/build/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.158.0/examples/js/loaders/GLTFLoader.js"></script>
+</head>
+<body>
+  <div id="overlay">
+    <img id="photo" src="" alt="Mother's Day Photo" />
+    <p id="message">Message will appear here</p>
+    <button onclick="closeOaverlay()">Close</button>
+  </div>
+  <canvas id="scene"></canvas>
+  <script src="script.js"></script>
+</body>
 </html>
